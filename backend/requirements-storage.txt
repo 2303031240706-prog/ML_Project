@@ -1,0 +1,3 @@
+# Optional persistence and caching adapters for production deployments.
+pymongo==4.10.1
+redis==5.2.1

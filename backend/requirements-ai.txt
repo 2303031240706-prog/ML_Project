@@ -1,0 +1,6 @@
+# Optional production AI dependencies. Install when GPU/CCTV inference is needed.
+ultralytics==8.3.58
+torch>=2.5.0
+torchvision>=0.20.0
+numpy>=2.2.0
+opencv-python>=4.10.0

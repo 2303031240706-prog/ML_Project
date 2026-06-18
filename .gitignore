@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and logs
+.env
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
