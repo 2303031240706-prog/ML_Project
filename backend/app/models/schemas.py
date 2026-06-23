@@ -65,6 +65,7 @@ class AnalyticsSummary(BaseModel):
     online_cameras: int
     active_alerts: int
     total_people_count: int
+    average_risk_score: float
     highest_risk_camera: str | None
     density_distribution: dict[str, int]
     generated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
@@ -74,4 +75,3 @@ class LiveUpdate(BaseModel):
     cameras: list[CameraState]
     alerts: list[Alert]
     summary: AnalyticsSummary
-
